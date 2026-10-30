@@ -10,3 +10,13 @@ run_worker_first = ["/api/*"]
 [[kv_namespaces]]
 binding = "DB"
 id = "d00afc6efc1246d0a48cc9a3cb06f00e"
+# ...
+[[secrets_store_secrets]]
+binding = "ADMIN_PASSWORD"
+store_id = "b8d264877a9844e6b4a5809aaae72506"
+secret_name = "ADMIN_PASSWORD"
+
+[[kv_namespaces]]
+binding = "DB"
+id = "d00afc6efc1246d0a48cc9a3cb06f00e"
+# ...
