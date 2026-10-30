@@ -1,0 +1,13 @@
+{
+  "name": "lista-azul",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Página de Lista Azul 2027 (centro de estudiantes)",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^4.45.0"
+  }
+}

@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#1E6BFF">
+<title>Panel · Lista Azul</title>
+<link rel="icon" href="/logo.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700&display=swap">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<main><section class="g" id="lg"><h2>Panel de Lista Azul</h2><form id="lf"><input id="pw" type="password" placeholder="Contraseña" autocomplete="current-password" required><button class="btn">Entrar</button></form><small id="er"></small></section>
+<div id="pn" hidden><section class="g"><h2>Textos de la página</h2><form id="sf"><label>Texto de inicio<textarea id="s1" rows="3"></textarea></label><label>Propuestas (una por línea)<textarea id="s2" rows="4"></textarea></label><label>Integrantes (uno por línea)<textarea id="s3" rows="4"></textarea></label><label>Usuario de Instagram<input id="s4"></label><button class="btn">Guardar cambios</button></form></section>
+<section class="g"><h2>Nueva votación</h2><form id="pf"><input id="q" maxlength="120" placeholder="Pregunta" required><textarea id="op" rows="3" placeholder="Una opción por línea (mínimo 2)" required></textarea><button class="btn">Crear votación</button></form><div id="pl"></div></section>
+<section class="g"><h2>Comentarios</h2><div id="cl"></div></section></div>
+</main>
+<script src="/admin.js"></script>
+</body>
+</html>
