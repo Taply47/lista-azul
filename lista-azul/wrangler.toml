@@ -8,5 +8,5 @@ binding = "ASSETS"
 run_worker_first = ["/api/*"]
 
 [[kv_namespaces]]
-binding = "contra
+binding = "contraseña"
 id = "7ce2aff5caa9483aa730703d21901a30"
