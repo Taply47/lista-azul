@@ -7,6 +7,6 @@ directory = "./public"
 binding = "ASSETS"
 run_worker_first = ["/api/*"]
 
-[[kv_namespaces]]
+[[LISTA_DB]]
 binding = "DB"
-id = "d00afc6efc1246d0a48cc9a3cb06f00e"
+id = "7ce2aff5caa9483aa730703d21901a30"
